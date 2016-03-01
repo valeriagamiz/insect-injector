@@ -2,6 +2,53 @@
 
 
 // ##########################################################
+var insects= [
+  {
+    name: 'Ant Nest Bettle',
+    img: "ant-nest-beetle.jpg",
+    family: 'Carabidae',
+    size: [6, 20],
+    food:{
+      eatsInsects: true,
+      eatsDung: false,
+      estsPlants: false,
+    }
+  },
+  {
+    name: 'Dung Beetle',
+    img: "dung-beetle.jpg",
+    family: 'Scarabidae',
+    size: [20, 30],
+    food:{
+      eatsInsects: false,
+      eatsDung: true,
+      estsPlants: false,
+    }
+  },
+  {
+    name: 'Stag Beetle',
+    img: "stag-beetle.jpg",
+    family: 'Lucanidae',
+    size: [5, 120],
+    food:{
+      eatsInsects: false,
+      eatsDung: false,
+      estsPlants: true,
+    }
+  },
+  {
+    name: 'Tortoise Beetle',
+    img: "tortoise-beetle.jpg",
+    family:'Cassidinae',
+    size: [1, 18],
+    food:{
+      eatsInsects: false,
+      eatsDung: false,
+      estsPlants: true,
+    }
+  },
+];
+
 // START DO NOT CHANGE ZONE
 // ##########################################################
 
